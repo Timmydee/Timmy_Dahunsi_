@@ -1,0 +1,36 @@
+.skills{
+    width: 100%;
+    height: 100%;
+}
+
+.skill__container{
+    width: 99%;
+    margin: 5rem auto 4rem;
+    @media screen and (max-width:1200px) {
+        margin: 0rem;
+    }
+}
+
+.skills-content{
+    margin-top: 1rem;
+    .skill-img{
+        width: 100px;
+        height: 150px;
+        
+
+        img{
+            width: 30%;
+            background-color: var(--primary-color);
+            padding: 1rem;
+            border-radius: 50px;
+        }
+    }
+
+    @media screen and (max-width:800px) {
+        .skill-img{
+            img{
+                width: 50%;
+            }
+        }  
+    }
+}
