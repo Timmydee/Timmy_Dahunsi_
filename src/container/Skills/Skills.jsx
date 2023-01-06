@@ -14,7 +14,7 @@ import redux from '../../assets/redux.png'
 import sass from '../../assets/sass.png'
 
 const skill = [react, redux , javascript, git , sass, html, css]
-
+// ddd 
 const Skills = () => {
 
     const settings = {
@@ -43,6 +43,7 @@ const Skills = () => {
                                 <img src={each} alt='/' />
                             </div>
                         ))}
+                    
                     </Slider>
                 </div>
             </div>
