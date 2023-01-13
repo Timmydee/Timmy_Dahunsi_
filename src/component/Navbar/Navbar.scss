@@ -19,24 +19,24 @@
 
     .nav-menu{
         display: flex;
-        // justify-content: space-evenly;
         align-items: center;
-        // width: 80%;
     }
     .nav{
         display: flex;
-        // align-self: center;
-        // align-content: center;
     }
 
     .nav li{
-        padding: 0 3rem;
+        padding: 0 2rem;
     }
 
     .nav a {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
         color: var(--black-color);
+
+        &:hover{
+            color: var(--gray-color);
+        }
     }
 
     .btn{

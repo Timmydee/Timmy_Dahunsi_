@@ -95,11 +95,12 @@ ul{
 }
 
 .btn{
-  padding: 14px 32px;
-  font-size: 1.1rem;
+  padding: 12px 28px;
+  // font-size: 1.1rem;
   border-radius: 24px 4px;
+  border: none;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .btn:hover {
