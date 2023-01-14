@@ -40,12 +40,12 @@ const allWork = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
-  {
-    imgUrl: images.port2,
-    title: "Type Game",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  }
+  // {
+  //   imgUrl: images.port2,
+  //   title: "Type Game",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // }
 ];
 
 const allWrite = [
@@ -55,12 +55,12 @@ const allWrite = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
-  {
-    imgUrl: images.write4,
-    title: "THE REAL DOM AND VIRTUAL DOM",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
+  // {
+  //   imgUrl: images.write4,
+  //   title: "THE REAL DOM AND VIRTUAL DOM",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
   {
     imgUrl: images.write2,
     title: "what is a DAO (Decentralized Autonomous Organization)",
