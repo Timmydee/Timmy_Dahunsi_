@@ -5,9 +5,9 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import port1 from "../../assets/port1.png";
 // import port2 from "../../assets/port2.png";
 // import port3 from "../../assets/port3.png";
-import port4 from "../../assets/port4.png";
-import port5 from "../../assets/port5.png";
-import port6 from "../../assets/port6.png";
+// import port4 from "../../assets/port4.png";
+// import port5 from "../../assets/port5.png";
+// import port6 from "../../assets/port6.png";
 
 import write1 from "../../assets/write1.png";
 import write2 from "../../assets/write2.png";
@@ -21,24 +21,24 @@ const allWork = [
     about:
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
-  {
-    imgUrl: port5,
-    title: "BizDev",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
-  {
-    imgUrl: port6,
-    title: "Color Scheme",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
-  {
-    imgUrl: port4,
-    title: "Tenzie Game",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
+  // {
+  //   imgUrl: port5,
+  //   title: "BizDev",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
+  // {
+  //   imgUrl: port6,
+  //   title: "Color Scheme",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
+  // {
+  //   imgUrl: port4,
+  //   title: "Tenzie Game",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
   // {
   //   imgUrl: port2,
   //   title: "Type Game",
