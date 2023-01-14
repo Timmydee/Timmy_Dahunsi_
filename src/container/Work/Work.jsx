@@ -3,8 +3,8 @@ import "./Work.scss";
 import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import port1 from "../../assets/port1.png";
-import port2 from "../../assets/port2.png";
-import port3 from "../../assets/port3.png";
+// import port2 from "../../assets/port2.png";
+// import port3 from "../../assets/port3.png";
 import port4 from "../../assets/port4.png";
 import port5 from "../../assets/port5.png";
 import port6 from "../../assets/port6.png";
@@ -39,12 +39,12 @@ const allWork = [
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
-  {
-    imgUrl: port2,
-    title: "Type Game",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
+  // {
+  //   imgUrl: port2,
+  //   title: "Type Game",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
 ];
 
 const allWrite = [
