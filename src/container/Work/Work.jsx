@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
-// import port2 from "../../assets/port2.png";
-// import port3 from "../../assets/port3.png";
-// import port4 from "../../assets/port4.png";
-// import port5 from "../../assets/port5.png";
-// import port6 from "../../assets/port6.png";
+import portii from "../../assets/portii.png";
+import portiii from "../../assets/portiii.png";
+import portiv from "../../assets/portiv.png";
+import portv from "../../assets/portv.png";
+import portvi from "../../assets/portvi.png";
 
-// import write1 from "../../assets/write1.png";
-// import write2 from "../../assets/write2.png";
-// import write3 from "../../assets/write3.png";
-// import write4 from "../../assets/write4.png";
+import writei from "../../assets/writei.png";
+import writeii from "../../assets/writeii.png";
+import writeiii from "../../assets/writeiii.png";
+import writeiv from "../../assets/writeiv.png";
 // import {images} from '../../constant';
 
 const allWork = [
@@ -23,57 +23,57 @@ const allWork = [
     about:
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
-  // {
-  //   imgUrl: images.port5,
-  //   title: "BizDev",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // },
-  // {
-  //   imgUrl: images.port6,
-  //   title: "Color Scheme",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // },
-  // {
-  //   imgUrl: images.port4,
-  //   title: "Tenzie Game",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // },
-  // {
-  //   imgUrl: images.port2,
-  //   title: "Type Game",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // }
+  {
+    imgUrl: portii,
+    title: "BizDev",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
+    imgUrl: portvi,
+    title: "Color Scheme",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
+    imgUrl: portiv,
+    title: "Tenzie Game",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
+    imgUrl: portv,
+    title: "Type Game",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  }
 ];
 
 const allWrite = [
   {
-    imgUrl: porti,
+    imgUrl: writei,
     title: "Variables in Javascript",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
-  // {
-  //   imgUrl: images.write4,
-  //   title: "THE REAL DOM AND VIRTUAL DOM",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // },
-  // {
-  //   imgUrl: images.write2,
-  //   title: "what is a DAO (Decentralized Autonomous Organization)",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urn pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // },
-  // {
-  //   imgUrl: images.write3,
-  //   title: "Building Web3 Dapps with no code tool :(Bunzz)",
-  //   about:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  // },
+  {
+    imgUrl: writeiii,
+    title: "THE REAL DOM AND VIRTUAL DOM",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
+    imgUrl: writeiv,
+    title: "what is a DAO (Decentralized Autonomous Organization)",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urn pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
+    imgUrl: writeii,
+    title: "Building Web3 Dapps with no code tool :(Bunzz)",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
   
 ];
 
