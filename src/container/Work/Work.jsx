@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
-import portii from "../../assets/portii.png";
+
 import portiii from "../../assets/portiii.png";
 import portiv from "../../assets/portiv.png";
 import portv from "../../assets/portv.png";
@@ -24,7 +24,7 @@ const allWork = [
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
   {
-    imgUrl: portii,
+    imgUrl: portiii,
     title: "BizDev",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
