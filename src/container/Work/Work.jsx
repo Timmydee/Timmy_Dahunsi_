@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
-import portii from "../../assets/portii.png";
+// import portii from '../../assets/portii.png';
 // import portiii from "../../assets/portiii.png";
-import portiv from "../../assets/portiv.png";
-import portv from "../../assets/portv.png";
-import portvi from "../../assets/portvi.png";
+import portiv from '../../assets/portiv.png';
+import portv from '../../assets/portv.png';
+import portvi from '../../assets/portvi.png';
 
-import writei from "../../assets/writei.png";
-import writeii from "../../assets/writeii.png";
-import writeiii from "../../assets/writeiii.png";
-import writeiv from "../../assets/writeiv.png";
+import writei from '../../assets/writei.png';
+import writeii from '../../assets/writeii.png';
+import writeiii from '../../assets/writeiii.png';
+import writeiv from '../../assets/writeiv.png';
 // import {images} from '../../constant';
 
 const allWork = [
@@ -24,7 +24,7 @@ const allWork = [
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
   {
-    imgUrl: portii,
+    imgUrl: porti,
     title: "BizDev",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
