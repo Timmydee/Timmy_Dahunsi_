@@ -22,24 +22,24 @@ const allWork = [
     about:
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
-  {
-    imgUrl: images.port5,
-    title: "BizDev",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
-  {
-    imgUrl: images.port6,
-    title: "Color Scheme",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
-  {
-    imgUrl: images.port4,
-    title: "Tenzie Game",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
+  // {
+  //   imgUrl: images.port5,
+  //   title: "BizDev",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
+  // {
+  //   imgUrl: images.port6,
+  //   title: "Color Scheme",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
+  // {
+  //   imgUrl: images.port4,
+  //   title: "Tenzie Game",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
   // {
   //   imgUrl: images.port2,
   //   title: "Type Game",
@@ -61,18 +61,18 @@ const allWrite = [
   //   about:
   //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   // },
-  {
-    imgUrl: images.write2,
-    title: "what is a DAO (Decentralized Autonomous Organization)",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urn pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
-  {
-    imgUrl: images.write3,
-    title: "Building Web3 Dapps with no code tool :(Bunzz)",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
+  // {
+  //   imgUrl: images.write2,
+  //   title: "what is a DAO (Decentralized Autonomous Organization)",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urn pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
+  // {
+  //   imgUrl: images.write3,
+  //   title: "Building Web3 Dapps with no code tool :(Bunzz)",
+  //   about:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  // },
   
 ];
 
