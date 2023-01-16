@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
-import portii from '../../assets/portii.PNG';
+import portii from '../../assets/port2.png';
 // import portiii from "../../assets/portiii.png";
-import portiv from '../../assets/portiv.PNG';
-import portv from '../../assets/portv.PNG';
-import portvi from '../../assets/portvi.PNG';
+import portiv from '../../assets/port4.png';
+import portv from '../../assets/port5.png';
+import portvi from '../../assets/port6.png';
 
-import writei from '../../assets/writei.PNG';
-import writeii from '../../assets/writeii.PNG';
-import writeiii from '../../assets/writeiii.PNG';
-import writeiv from '../../assets/writeiv.PNG';
+import writei from '../../assets/write1.png';
+import writeii from '../../assets/write2.png';
+import writeiii from "../../assets/write3.png";
+import writeiv from "../../assets/write4.png";
 // import {images} from '../../constant';
 
 const allWork = [
