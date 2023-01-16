@@ -65,7 +65,7 @@ const allWrite = [
     imgUrl: images.write2,
     title: "what is a DAO (Decentralized Autonomous Organization)",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urn pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
   {
     imgUrl: images.write3,
