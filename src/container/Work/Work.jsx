@@ -3,7 +3,7 @@ import "./Work.scss";
 import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
-import git from '../../assets/git.png'
+import porti from '../../assets/porti.png'
 // import port2 from "../../assets/port2.png";
 // import port3 from "../../assets/port3.png";
 // import port4 from "../../assets/port4.png";
@@ -51,7 +51,7 @@ const allWork = [
 
 const allWrite = [
   {
-    imgUrl: git,
+    imgUrl: porti,
     title: "Variables in Javascript",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
