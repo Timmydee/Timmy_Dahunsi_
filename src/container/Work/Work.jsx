@@ -18,7 +18,7 @@ import porti from '../../assets/porti.png'
 
 const allWork = [
   {
-    imgUrl: git,
+    imgUrl: porti,
     title: "Logi Hub",
     about:
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
