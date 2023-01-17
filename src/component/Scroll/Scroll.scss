@@ -19,12 +19,17 @@
     cursor: pointer;
     &:hover {
         box-shadow: none;
+
+        @media screen and (max-width: 700px) {
+            height: 2.5rem;
+            width: 2.5rem;
+        }
     }
 
     a{
         svg{
             color: var(--primary-color);
-            font-size: 2rem;
+            font-size: 1rem;
         }
     }
     
@@ -34,3 +39,4 @@
     visibility: visible;
     opacity: 1;
 }
+
