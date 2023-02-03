@@ -6,13 +6,14 @@ import Work from './container/Work/Work'
 import Skills from './container/Skills/Skills'
 import Contact from './container/Contact/Contact'
 import { Scroll } from './component/Scroll/Scroll'
+import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 
 
 const App = () => {
   return (
     <div className='app'>
       <Navbar/>
-      <Scroll />
+      <Scroll /> 
       <Hero />
       <Work />
       <Skills />

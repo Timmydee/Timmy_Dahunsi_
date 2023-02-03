@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='header'>
       <div className="nav__container">
         <div className="logo">
-          <img src={logo} alt='/' />
+          <h2>TIM<span>MY</span></h2>
         </div>
 
         <div className={ click ? 'nav-menu active' : 'nav-menu'}>

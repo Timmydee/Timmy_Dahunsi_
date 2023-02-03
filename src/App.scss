@@ -72,9 +72,19 @@
   }
 }
 
+.pSub-text{
+  font-size: 1.4rem;
+  color: var(--gray-color);
+  line-height: 1.5;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
+}
+
 .bold-text{
   font-size: 2rem;
-  font-weight: 800;
+  // font-weight: 800;
   color: var(--black-color);
 
   @media screen and (min-width: 2000px) {
