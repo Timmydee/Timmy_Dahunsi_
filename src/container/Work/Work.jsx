@@ -7,7 +7,7 @@ import porti from '../../assets/porti.png'
 import portii from '../../assets/port2.png';
 // import portiii from "../../assets/portiii.png";
 import portiv from '../../assets/port4.png';
-import portv from '../../assets/port5.jpg';
+// import portv from '../../assets/port5.jpg';
 import portvi from '../../assets/port6.png';
 
 import writei from '../../assets/write1.png';
@@ -18,7 +18,7 @@ import writeiv from "../../assets/write4.png";
 
 const allWork = [
   {
-    imgUrl: portv,
+    imgUrl: porti,
     title: "Brand Website",
     webUrl:"https://portfolio-pearl-tau-28.vercel.app/",
     about:
