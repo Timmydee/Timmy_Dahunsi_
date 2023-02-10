@@ -7,7 +7,7 @@ import porti from '../../assets/porti.png'
 import portii from '../../assets/port2.png';
 // import portiii from "../../assets/portiii.png";
 import portiv from '../../assets/port4.png';
-import portv from '../../assets/port5.png';
+import portv from '../../assets/port5.jpg';
 import portvi from '../../assets/port6.png';
 
 import writei from '../../assets/write1.png';
@@ -18,14 +18,25 @@ import writeiv from "../../assets/write4.png";
 
 const allWork = [
   {
+    imgUrl: portv,
+    title: "Brand Website",
+    webUrl:"https://portfolio-pearl-tau-28.vercel.app/",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
     imgUrl: porti,
     title: "Logi Hub",
+    gitUrl: "https://github.com/Timmydee/LogisticHub",
+    webUrl: "http://logistichub.vercel.app/",
     about:
       "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
   {
     imgUrl: portii,
     title: "BizDev",
+    gitUrl: "https://github.com/Timmydee/DEV-WEBPAGE",
+    webUrl: "https://timmydee.github.io/DEV-WEBPAGE/",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
@@ -33,18 +44,16 @@ const allWork = [
   {
     imgUrl: portiv,
     title: "Tenzie Game",
-    about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
-  },
-  {
-    imgUrl: portv,
-    title: "Type Game",
+    webUrl:"https://tenzie-game-ten.vercel.app/",
+    gitUrl:"https://github.com/Timmydee/Tenzie-game",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
   {
     imgUrl: portvi,
-    title: "Color Scheme",
+    title: "Color Scheme Generator",
+    webUrl:"https://timmydee.github.io/Color-Scheme/",
+    gitUrl:"https://github.com/Timmydee/Color-Scheme",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
@@ -88,9 +97,12 @@ const Work = () => {
 
     if (item === "Websites") {
       setFilterWork(allWork);
+      console.log("red")
     } else {
       setFilterWork(allWrite);
+      console.log("green")
     }
+    // console.log(filterWork)
   };
 
   return (
@@ -112,7 +124,7 @@ const Work = () => {
               key={index}
               onClick={() => handleWorkFilter(item)}
               className={`work-filter p-text app__fle ${
-                activeFilter === item ? "item-active" : ""
+                filterWork === "Websites" ? "item-active" : ""
               }`}
             >
               {item}
@@ -138,10 +150,14 @@ const Work = () => {
                     <div className="workContent_col5">
                       <p className="p-text">See Projects</p>
                       <div className="icon eye">
-                        <AiFillEye />
-                      </div>
+                        <a href={work.webUrl} target="_blank">
+                          <AiFillEye />
+                        </a>
+                      </div>    
                       <div className="icon git">
-                        <AiFillGithub />
+                        <a href={work.gitUrl} target="_blank">
+                          <AiFillGithub />
+                        </a>
                       </div>
                     </div>
                     :
