@@ -5,6 +5,7 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
 import portii from '../../assets/port2.png';
+import port7 from '../../assets/port7.png';
 // import portiii from "../../assets/portiii.png";
 import portiv from '../../assets/port4.png';
 import portv from '../../assets/port5.png';
@@ -21,6 +22,13 @@ const allWork = [
     imgUrl: portv,
     title: "Brand Website",
     webUrl:"https://portfolio-pearl-tau-28.vercel.app/",
+    about:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+  },
+  {
+    imgUrl: port7,
+    title: "Tradify",
+    webUrl:"https://tradify-nine.vercel.app/",
     about:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
