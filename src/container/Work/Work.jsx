@@ -26,7 +26,7 @@ const allWork = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
   },
   {
-    imgUrl: portv,
+    imgUrl: portvii,
     title: "Tradify",
     webUrl:"https://tradify-nine.vercel.app/",
     about:
