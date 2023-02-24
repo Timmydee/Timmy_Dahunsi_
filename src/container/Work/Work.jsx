@@ -5,7 +5,7 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
 import portii from '../../assets/port2.png';
-import portvii from '../../assets/port7.png';
+import portvii from '../../assets/pics1.png';
 // import portiii from "../../assets/portiii.png";
 import portiv from '../../assets/port4.png';
 import portv from '../../assets/port5.png';
