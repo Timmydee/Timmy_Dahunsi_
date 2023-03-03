@@ -11,12 +11,15 @@ const Hero = () => {
         transition={{ duration: 1.2 }}
         className="hero__container"
       >
-        <span>Hi there,</span>
+        <span>Hi, My name is,</span>
         <h1 className='h-text'>
-            I'm Dahunsi Timilehin, <br/>I <span>Build Products</span> on the web           
+            Dahunsi Timilehin, <br/>I <span>Build Products</span> on the web           
         </h1>
-        <p className='pSub-text'>I am a creative Web developer Passionate about converting web into Products</p>
+        <p className='pSub-text'>I’m a software engineer specializing in building Products and exceptional digital  experiences on the web</p>
+        <button className='btn'>Download Resume </button>
       </motion.div>
+
+      
     </div>
   )
 }
