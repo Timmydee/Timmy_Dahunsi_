@@ -2,7 +2,9 @@
 
 :root {
   --font-base: 'Space Grotesk', sans-serif;
-  --primary-color: #edf2f8;
+  --primary-color: #eff3f7;
+  /* #edf2f8 */
+  /* --primary-color: #495670; */
   --secondary-color: #313bac;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
