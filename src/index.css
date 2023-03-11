@@ -2,14 +2,12 @@
 
 :root {
   --font-base: 'Space Grotesk', sans-serif;
-  --primary-color: #eff3f7;
-  /* #edf2f8 */
-  /* --primary-color: #495670; */
-  --secondary-color: #313bac;
-  --black-color: #030303;
+  --primary-color: #e4ebf2;
+  --secondary-color: #167ed8;
+  /* --secondary-color: #313bac; */
+  --black-color: #595858;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
-  /* --brown-color: #46364a; */
   --white-color: #ffffff;
 }
 
@@ -18,7 +16,4 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-
-
-
 }

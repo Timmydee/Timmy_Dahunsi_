@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './Navbar.scss'
-import logo from "../../assets/Timmylogo.png"
+import logo from "../../assets/TimLogo.png"
 import {FaBars, FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='header'>
       <div className="nav__container">
         <div className="logo">
-          <h2>TIM<span>MY</span></h2>
+          <img src={logo} alt='logo' />
         </div>
 
         <div className={ click ? 'nav-menu active' : 'nav-menu'}>

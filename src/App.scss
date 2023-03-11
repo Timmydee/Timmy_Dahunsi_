@@ -1,5 +1,5 @@
 .app {
-  // background-color: var(--primary-color);
+  background-color: var(--primary-color);
   font-family: var(--font-base);
   overflow-x: hidden;
 }
@@ -24,7 +24,7 @@
 .h-text{
   font-size: 3.7rem;
   font-weight: 800;
-  // text-align: center;
+  color: #3b3a3a;
   text-transform: capitalize;
 
   span{
@@ -73,7 +73,7 @@
 }
 
 .pSub-text{
-  font-size: 1.0rem;
+  font-size: 1.4rem;
   color: var(--gray-color);
   line-height: 1.5;
 
@@ -98,6 +98,7 @@
 
 a {
   text-decoration: none;
+  // font-size: 1.5rem;
 }
 
 ul{
