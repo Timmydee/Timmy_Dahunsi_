@@ -1,5 +1,5 @@
 .app {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   font-family: var(--font-base);
   overflow-x: hidden;
 }
@@ -24,7 +24,7 @@
 .h-text{
   font-size: 3.7rem;
   font-weight: 800;
-  color: #3b3a3a;
+  color: var(--white-color);
   text-transform: capitalize;
 
   span{
@@ -39,7 +39,7 @@
     font-size: 3.5rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -48,6 +48,7 @@
   font-weight: 800;
   text-align: center;
   text-transform: capitalize;
+  color: var(--white-color);
 
   span{
     color: var(--secondary-color);
@@ -64,7 +65,7 @@
 
 .p-text{
   font-size: 0.8rem;
-  color: var(--gray-color);
+  color: var(--white-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -73,8 +74,8 @@
 }
 
 .pSub-text{
-  font-size: 1.4rem;
-  color: var(--gray-color);
+  font-size: 1rem;
+  color: var(--white-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -83,9 +84,9 @@
 }
 
 .bold-text{
-  font-size: 2rem;
+  font-size: 3.2rem;
   // font-weight: 800;
-  color: var(--black-color);
+  color: var(--secondary-color);
 
   @media screen and (min-width: 2000px) {
     font-size: 2rem;

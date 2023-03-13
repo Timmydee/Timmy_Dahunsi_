@@ -2,13 +2,26 @@
 
 :root {
   --font-base: 'Space Grotesk', sans-serif;
-  --primary-color: #e4ebf2;
-  --secondary-color: #167ed8;
-  /* --secondary-color: #313bac; */
+  --primary-color: #eef2f6;
+  --tetiary-color:  linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%); 
+  --secondary-color: #0c589a;
   --black-color: #595858;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
+  --white-color: #010101;
+  --whiteInverse: #ffffff;
+}
+
+[data-theme = true] {
+  --font-base: 'Space Grotesk', sans-serif;
+  --primary-color: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%);
+  --secondary-color: #1385e9;
+  --tetiary-color: #eef2f6;
+  --black-color: #f7f2f2;
+  --lightGray-color: #f9f8f8;
+  --gray-color: #e5edf9;
   --white-color: #ffffff;
+  --whiteInverse: #010101;
 }
 
 *{

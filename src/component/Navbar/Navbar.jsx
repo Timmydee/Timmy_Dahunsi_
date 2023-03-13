@@ -1,10 +1,14 @@
-import React,{useState} from 'react'
+import React,{useContext, useState} from 'react'
 import './Navbar.scss'
 import logo from "../../assets/TimLogo.png"
 import {FaBars, FaTimes} from 'react-icons/fa'
+import { ImSun } from "react-icons/im";
+import { BsFillMoonFill } from "react-icons/bs";
+import { themeContext } from '../../Context/DataContext';
 
 const Navbar = () => {
   const [click, setClick] = useState(false)
+  const {mode, toggle} = useContext(themeContext)
 
   function handleClick(){
     setClick(!click)
@@ -30,18 +34,32 @@ const Navbar = () => {
             <li>
               <a href='/'>Works</a>
             </li>
+
+            <li>
+              <a href='/'>Contact</a>
+            </li>
           </ul>
 
-          <div className="btn-group">
+          {/* <div className="btn-group">
             <button className='btn'>Contact</button>
-          </div>
-
+          </div> */}
+        </div>
+        <div className="switch1" onClick={toggle}>
+            {mode ? 
+                <BsFillMoonFill className='on'/> : <ImSun className='off' />
+            }
         </div>
 
         <div onClick={handleClick} className='hamburger'>
           {click ? 
-            (<FaTimes  size={20} style={{color: "#333"}}/>) : <FaBars size={20} style={{color: "#333"}}/>
+            (<FaTimes className="menuIcon"/>) : <FaBars className="menuIcon"/>
           }
+        </div>
+
+        <div className="switch" onClick={toggle}>
+            {mode ? 
+                <BsFillMoonFill className='on'/> : <ImSun className='off' />
+            }
         </div>
       </div>
     </div>

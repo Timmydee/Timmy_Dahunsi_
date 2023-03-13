@@ -23,14 +23,14 @@ const allWork = [
     title: "Brand Website",
     webUrl:"https://portfolio-pearl-tau-28.vercel.app/",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+      "I developed the frontend of a this web application that serves as a portfolio website for my client.",
   },
   {
     imgUrl: portvii,
     title: "Tradify",
     webUrl:"https://tradify-nine.vercel.app/",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+      "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
   },
   {
     imgUrl: porti,
@@ -38,7 +38,7 @@ const allWork = [
     gitUrl: "https://github.com/Timmydee/LogisticHub",
     webUrl: "http://logistichub.vercel.app/",
     about:
-      "LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
+      "I developed the frontend of this application, LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
   },
   {
     imgUrl: portii,
@@ -46,7 +46,7 @@ const allWork = [
     gitUrl: "https://github.com/Timmydee/DEV-WEBPAGE",
     webUrl: "https://timmydee.github.io/DEV-WEBPAGE/",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+      "Bizdev is a landing page clone for a freelance business development company.",
   },
   
   {
@@ -55,7 +55,7 @@ const allWork = [
     webUrl:"https://tenzie-game-ten.vercel.app/",
     gitUrl:"https://github.com/Timmydee/Tenzie-game",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+      "Tenzie is a game i developed to help players kill boredom.",
   },
   {
     imgUrl: portvi,
@@ -63,7 +63,7 @@ const allWork = [
     webUrl:"https://timmydee.github.io/Color-Scheme/",
     gitUrl:"https://github.com/Timmydee/Color-Scheme",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.",
+      "Color Scheme is an open source project i created , which assist designers and developers to choose a color palette.",
   },
 ];
 
@@ -150,7 +150,7 @@ const Work = () => {
             >
               <div className="workContent_col3">
                 <h3 className="bold-text">{work.title}</h3>
-                <p className="p-text">{work.about}</p>
+                <p className="pSub-text">{work.about}</p>
                 {/* <hr></hr> */}
                 
                 <div>

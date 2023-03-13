@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    padding: 2rem 7rem 0rem 5rem;
+    padding: 2rem 7rem 0rem 2rem;
     position: fixed;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -50,6 +50,22 @@
 
     .hamburger{
         display: none;
+
+        .menuIcon{
+            // color: --var(--whiteInverse);
+            color: blue;
+            font-size: 2rem;
+            // border: 1px solid red;
+            // padding: 1rem;
+        }
+    }
+
+    .switch1{
+        display: none;
+    }
+
+    .switch .on{
+        color: white;
     }
 
     @media screen and (max-width: 900px) {
@@ -58,17 +74,18 @@
         }
         .hamburger{
             display: flex;
+
         }
         .nav{
             display: flex;
             flex-direction: column;
         }
-
+        
         .nav-menu{
             position: absolute;
             flex-direction: column;
             justify-content: start;
-            background-color: var(--gray-color);
+            background: var(--tetiary-color);
             width: 70%;
             left: -100%;
             top: 0px;
@@ -90,6 +107,18 @@
     
         .nav a{
             font-size: 1rem;
+            color: var(--whiteInverse);
+        }
+
+        .switch{
+            display: none;
+        }
+
+        .switch1{
+            display: block;
+            .on{
+                color: white;
+            }
         }
     }
 }
