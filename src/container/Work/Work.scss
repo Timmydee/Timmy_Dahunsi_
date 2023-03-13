@@ -4,8 +4,12 @@
 }
 
 .work__container{
-    margin: 4rem auto;
+    margin: 0rem auto;
     width: 80%;
+
+    h1{
+        margin-bottom: 1rem;
+    }
 
     .item-active{
         background-color: green;
@@ -37,7 +41,7 @@
 }
 
 .workContent_col2{
-    margin-top: 5rem;
+    margin: 3rem 0 8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
