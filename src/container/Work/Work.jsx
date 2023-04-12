@@ -96,9 +96,9 @@ const allWrite = [
 ];
 
 const Work = () => {
-  const [activeFilter, setActiveFilter] = useState("All");
+  // const [activeFilter, setActiveFilter] = useState("All");
   const [filterWork, setFilterWork] = useState(allWork);
-  const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+  // const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   const handleWorkFilter = (item) => {
     // setActiveFilter(item)
@@ -131,11 +131,10 @@ const Work = () => {
             <div
               key={index}
               onClick={() => handleWorkFilter(item)}
-              className={`work-filter p-text app__fle ${
-                filterWork === "Websites" ? "item-active" : ""
-              }`}
+              className={`work-filter
+              `}
             >
-              {item}
+              {item }
             </div>
           ))}
         </div>

@@ -8,50 +8,29 @@
     width: 80%;
 
     h1{
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
 
-    .work-filters{
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        gap: 2rem;
-        margin: 1rem 0 0 0;
-        
-        .work-filter{
-            background-color: var(--secondary-color);
-            padding: 1.2rem 2rem;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border-radius: 10px;
-
-            .item-active{
-                background-color: green;
-            }
-            .item-inactive{
-                background-color: red;
-            }
-
-        }
-    }
+    
 
 }
 
 .workContent_col2{
     margin: 3rem 0 8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // gap: 2rem;
     border-radius: 20px;
-    padding: 1rem;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: var(--project-color);
     .workContent_col3{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        // align-items: center;
         h3{
             // font-weight: 600;
             // font-size: 4.4rem;
@@ -65,7 +44,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 2rem;
+            font-size: 1rem;
             cursor: pointer ;
 
             a{
@@ -126,9 +105,11 @@
 
     @media screen and (max-width: 600px) {
         width: 100%;
-        margin: 5rem auto 0;
-        grid-template-columns: 1fr;
-        gap: 1rem;
+        margin: 2rem auto 0;
+        flex-direction: column;
+        align-items: start;
+        // grid-template-columns: 1fr;
+        // gap: 1rem;
 
         .workContent_col3{
             // h4{
@@ -157,19 +138,19 @@
 
 .workContent_img{
     img{
-        width: 100%;
+        width: 300px;
         margin: 0 auto;
-        height: 300px;
+        height: 150px;
     }
 
     @media screen and (max-width:900px) {
         img{
-            width: 90%;
-            margin: 0 auto;
-            display: flex;
+            width: 100%;
+            // margin: 0 auto;
+            // display: flex;
             height: 100%;
             // align-items: center;
         }
-        margin-top: 0rem;
+        margin-top: 0.5rem;
     }
 }

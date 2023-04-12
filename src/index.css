@@ -3,6 +3,7 @@
 :root {
   --font-base: 'Space Grotesk', sans-serif;
   --primary-color: #eef2f6;
+  --project-color: #d1e3f6;
   --tetiary-color:  linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%); 
   --secondary-color: #0c589a;
   --black-color: #595858;
@@ -15,6 +16,7 @@
 [data-theme = true] {
   --font-base: 'Space Grotesk', sans-serif;
   --primary-color: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%);
+  --project-color: #0b1244;
   --secondary-color: #1385e9;
   --tetiary-color: #eef2f6;
   --black-color: #f7f2f2;

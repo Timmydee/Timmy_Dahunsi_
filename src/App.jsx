@@ -8,6 +8,7 @@ import Contact from './container/Contact/Contact'
 import { Scroll } from './component/Scroll/Scroll'
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 import { themeContext } from './Context/DataContext'
+import Projects from './container/Projects/Projects'
 
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
       <Navbar/>
       <Scroll /> 
       <Hero />
-      <Work />
+      {/* <Work /> */}
+      <Projects />
       <Skills />
       <Contact />
     </div>

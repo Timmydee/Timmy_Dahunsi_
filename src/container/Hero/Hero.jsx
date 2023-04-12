@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.scss'
 import {motion} from 'framer-motion'
+import {BiChevronsDown} from 'react-icons/bi'
 
 const Hero = () => {
   return (
@@ -22,7 +23,12 @@ const Hero = () => {
         </a>
       </motion.div>
 
-      
+      <div className='down vibrate-1'>
+        <div className='subDown'>
+          <BiChevronsDown className='downIcon'/>
+        </div>
+      </div>
+     
     </div>
   )
 }
