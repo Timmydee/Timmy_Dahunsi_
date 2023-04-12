@@ -9,6 +9,7 @@ import { Scroll } from './component/Scroll/Scroll'
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 import { themeContext } from './Context/DataContext'
 import Projects from './container/Projects/Projects'
+import Articles from './container/Articles/Articles'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Hero />
       {/* <Work /> */}
       <Projects />
+      <Articles />
       <Skills />
       <Contact />
     </div>
