@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
         <div className="switch1" onClick={toggle}>
             {mode ? 
-                <BsFillMoonFill className='on'/> : <ImSun className='off' />
+                <BsFillMoonFill className='off'/> : <ImSun className='on' />
             }
         </div>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
 
         <div className="switch" onClick={toggle}>
             {mode ? 
-                <BsFillMoonFill className='on'/> : <ImSun className='off' />
+                <BsFillMoonFill className='off'/> : <ImSun className='on' />
             }
         </div>
       </div>
