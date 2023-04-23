@@ -96,12 +96,11 @@ const allWrite = [
 ];
 
 const Work = () => {
-  // const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState("");
   const [filterWork, setFilterWork] = useState(allWork);
-  // const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   const handleWorkFilter = (item) => {
-    // setActiveFilter(item)
+    setActiveFilter(item)
 
     if (item === "Websites") {
       setFilterWork(allWork);
@@ -131,8 +130,7 @@ const Work = () => {
             <div
               key={index}
               onClick={() => handleWorkFilter(item)}
-              className={`work-filter
-              `}
+              className={`work-filter ${activeFilter === item ? "active" : "inactive"}`}
             >
               {item }
             </div>
@@ -141,7 +139,6 @@ const Work = () => {
 
         <div className="work-portfolio workContent_co ">
           {filterWork.map((work) => (
-            // <div className="workContent_col2">
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.9 }}

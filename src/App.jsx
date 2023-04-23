@@ -10,6 +10,7 @@ import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 import { themeContext } from './Context/DataContext'
 import Projects from './container/Projects/Projects'
 import Articles from './container/Articles/Articles'
+import About from './container/About/About'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Navbar/>
       <Scroll /> 
       <Hero />
+      <About />
       {/* <Work /> */}
       <Projects />
       <Articles />

@@ -17,13 +17,6 @@ import port2 from '../../assets/nftsImg.webp'
 
 const allWork = [
     {
-      imgUrl: port1,
-      title: "Best Crib",
-      webUrl:"https://bestcrib.vercel.app/",
-      about:
-        "Best Crib is a housing solution that helps home seekers find vacant apartments in my Local community.",
-    },
-    {
       imgUrl: port2,
       title: "Nft MarketPlace",
       webUrl:"https://nftworld-five.vercel.app/",
@@ -38,19 +31,18 @@ const allWork = [
         "I developed the frontend of a this web application that serves as a portfolio website for my client.",
     },
     {
+      imgUrl: port1,
+      title: "Best Crib",
+      webUrl:"https://bestcrib.vercel.app/",
+      about:
+        "Best Crib is a housing solution that helps home seekers find vacant apartments in my Local community.",
+    },
+    {
       imgUrl: portvii,
       title: "Tradify",
       webUrl:"https://tradify-nine.vercel.app/",
       about:
         "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
-    },
-    {
-      imgUrl: porti,
-      title: "Logi Hub",
-      gitUrl: "https://github.com/Timmydee/LogisticHub",
-      webUrl: "http://logistichub.vercel.app/",
-      about:
-        "I developed the frontend of this application, LogiHub is a logistic solution that easily connect people to the closest and reliable Logistic Agent.",
     },
     {
       imgUrl: portii,
@@ -59,15 +51,6 @@ const allWork = [
       webUrl: "https://timmydee.github.io/DEV-WEBPAGE/",
       about:
         "Bizdev is a landing page clone for a freelance business development company.",
-    },
-    
-    {
-      imgUrl: portiv,
-      title: "Tenzie Game",
-      webUrl:"https://tenzie-game-ten.vercel.app/",
-      gitUrl:"https://github.com/Timmydee/Tenzie-game",
-      about:
-        "Tenzie is a game i developed to help players kill boredom.",
     },
     {
       imgUrl: portvi,
@@ -82,7 +65,7 @@ const allWork = [
 
 const Projects = () => {
     return (
-        <div className="work">
+        <div className="work" id='works'>
             <div className='work__container'>
                 <h2 className="sub-text"><span>Some of my Projects</span></h2>
 
