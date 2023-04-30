@@ -21,6 +21,11 @@
     align-items: center;
     height: 100%;
 
+    img{
+        object-fit: cover;
+        width: 80%;
+    }
+
     .nav-menu{
         display: flex;
         align-items: center;

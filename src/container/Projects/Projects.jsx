@@ -65,7 +65,7 @@ const allWork = [
 
 const Projects = () => {
     return (
-        <div className="work" id='works'>
+        <div className="work" id='work'>
             <div className='work__container'>
                 <h2 className="sub-text"><span>Some of my Projects</span></h2>
 

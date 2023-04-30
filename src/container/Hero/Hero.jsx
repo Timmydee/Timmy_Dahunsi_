@@ -5,7 +5,7 @@ import {BiChevronsDown} from 'react-icons/bi'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
         
       <motion.div
         whileInView={{ opacity: [0, 1] }}
