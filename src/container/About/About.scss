@@ -1,11 +1,12 @@
 .about {
   width: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
 }
 
 .about__container {
-  margin: 5rem auto 0;
+  margin: 5rem auto;
   width: 80%;
   height: 100%;
 
@@ -78,6 +79,8 @@
 
 @media (max-width: 480px) {
   .about__container {
+    margin: 0rem auto 3rem;
+    padding: 0;
     .about__col {
       .about__text-wrapper {
         .about__text {
