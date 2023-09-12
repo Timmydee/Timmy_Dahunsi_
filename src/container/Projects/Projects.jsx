@@ -9,7 +9,7 @@ import portvii from '../../assets/pics1.png';
 // import portiii from "../../assets/portiii.png";
 import portiv from '../../assets/port4.png';
 import portv from '../../assets/port5.png';
-import portvi from '../../assets/port6.png';
+import port3 from '../../assets/dnq.webp';
 import port1 from '../../assets/bestImg.webp'
 import port2 from '../../assets/nftsImg.webp'
 
@@ -21,8 +21,15 @@ const allWork = [
       title: "Nft MarketPlace",
       webUrl:"https://nftworld-five.vercel.app/",
       about:
-        "I designed the frontend of this website using Next.Js and TailwindCss.",
+        "I developed the frontend of this website using Next.Js and TailwindCss.",
     },
+    {
+        imgUrl: port3,
+        title: "Designer Query",
+        webUrl:"https://designerquery.vercel.app/",
+        about:
+          "I worked along side an agile team and was responsible for developing the frontend of this website using Next.Js and TailwindCss.",
+      },
     {
       imgUrl: portv,
       title: "Brand Website",
@@ -43,22 +50,6 @@ const allWork = [
       webUrl:"https://tradify-nine.vercel.app/",
       about:
         "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
-    },
-    {
-      imgUrl: portii,
-      title: "BizDev",
-      gitUrl: "https://github.com/Timmydee/DEV-WEBPAGE",
-      webUrl: "https://timmydee.github.io/DEV-WEBPAGE/",
-      about:
-        "Bizdev is a landing page clone for a freelance business development company.",
-    },
-    {
-      imgUrl: portvi,
-      title: "Color Scheme Generator",
-      webUrl:"https://timmydee.github.io/Color-Scheme/",
-      gitUrl:"https://github.com/Timmydee/Color-Scheme",
-      about:
-        "Color Scheme is an open source project i created , which assist designers and developers to choose a color palette.",
     },
   ];
 
