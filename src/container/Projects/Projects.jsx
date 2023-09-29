@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 // import port1 from "../../assets/port1.png";
 import porti from '../../assets/porti.png'
-import portii from '../../assets/port2.png';
+import portii from '../../assets/kr1.png';
 import portvii from '../../assets/pics1.png';
 // import portiii from "../../assets/portiii.png";
-import portiv from '../../assets/port4.png';
+import portiv from '../../assets/xy2.png';
 import portv from '../../assets/port5.png';
 import port3 from '../../assets/dnq.webp';
 import port1 from '../../assets/bestImg.webp'
@@ -45,14 +45,14 @@ const allWork = [
     //     "Best Crib is a housing solution that helps home seekers find vacant apartments in my Local community.",
     // },
     {
-        imgUrl: port1,//
+        imgUrl: portiv,//
         title: "Xypher",
         webUrl:"https://xyzpher.vercel.app/",
         about:
           'I actively collaborated with designers to build the frontend of Xypher, a decentralized investment platform, utilizing Next.js and Tailwind CSS to create a seamless and user-friendly interface.',
       },
       {
-        imgUrl: port1,
+        imgUrl: portii,
         title: "Krane Finance",
         webUrl:"https://krane-fe.vercel.app/",
         about:
