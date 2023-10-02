@@ -10,7 +10,7 @@ import portvii from '../../assets/pics1.png';
 import portiv from '../../assets/xy2.webp';
 import portv from '../../assets/port5.png';
 import port3 from '../../assets/dnq.webp';
-import port1 from '../../assets/bestImg.webp'
+import port1 from '../../assets/bestcribs.webp'
 import port2 from '../../assets/nftsImg.webp'
 
 
