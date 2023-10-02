@@ -17,6 +17,13 @@ import port2 from '../../assets/nftsImg.webp'
 
 const allWork = [
     {
+      imgUrl: port1,
+      title: "Best Crib",
+      webUrl:"https://bestcrib.vercel.app/",
+      about:
+        "Best Crib is a housing solution that helps home seekers find vacant apartments in my Local community.",
+    },
+    {
       imgUrl: port2,
       title: "Nft MarketPlace",
       webUrl:"https://nftworld-five.vercel.app/",
@@ -58,14 +65,14 @@ const allWork = [
         about:
           "As a frontend developer in an agile team, I am actively contributing to the ongoing development of Krane Finance, an innovative platform aimed at simplifying car loan processes. My focus is on crafting an intuitive and visually engaging user interface to enhance the borrowing experience for individuals as the project evolves.",
       },
-    {
-      imgUrl: portvii,
-      title: "Tradify",
-      webUrl:"https://tradify-nine.vercel.app/",
-      about:
-        "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
-    },
-  ];
+//     {
+//       imgUrl: portvii,
+//       title: "Tradify",
+//       webUrl:"https://tradify-nine.vercel.app/",
+//       about:
+//         "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
+//     },
+//   ];
 
 
 const Projects = () => {
