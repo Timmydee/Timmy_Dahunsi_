@@ -64,7 +64,7 @@ const allWork = [
         webUrl:"https://krane-fe.vercel.app/",
         about:
           "As a frontend developer in an agile team, I am actively contributing to the ongoing development of Krane Finance, an innovative platform aimed at simplifying car loan processes. My focus is on crafting an intuitive and visually engaging user interface to enhance the borrowing experience for individuals as the project evolves.",
-      },
+      }
 //     {
 //       imgUrl: portvii,
 //       title: "Tradify",
@@ -72,7 +72,7 @@ const allWork = [
 //       about:
 //         "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
 //     },
-//   ];
+];
 
 
 const Projects = () => {
