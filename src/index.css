@@ -13,6 +13,8 @@
   --gray-color: #6b7688;
   --white-color: #010101;
   --whiteInverse: #ffffff;
+  --button: #0c589a;
+  
 }
 
 [data-theme="true"] {
@@ -26,6 +28,8 @@
   --gray-color: #e5edf9;
   --white-color: #ffffff;
   --whiteInverse: #010101;
+  --button: #ffffff;
+  
 }
 
 * {

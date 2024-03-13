@@ -48,23 +48,28 @@
 
             a{
                 text-decoration: none;
-                color: #65ce54;
+                // color: #65ce54;
+                color: var(--project-color);
             }
             
         }
 
         .eye{
-            background-color: #65ce5455;
-            color: #65ce54;
+            background-color: var(--button);
+            // color: #65ce54;
             margin-right: 1rem;
             &:hover{
-                color:#65ce54;;
+                background-color:#65ce54;
             }
         }
 
         .git{
-            background-color: #65ce5455;
-            color: #65ce54;
+            // background-color: #dbe8f4;
+            background-color: var(--button);
+
+            &:hover{
+                background-color:#65ce54;
+            }
         }
 
 
