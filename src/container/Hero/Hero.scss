@@ -11,10 +11,10 @@
 
 .hero__container{
     text-align: start;
-    width: 80%;
+    width: 90%;
     height: 100vh;
     padding-top: 12rem;
-    margin: 0 auto 2rem;
+    margin: 0 auto 0rem;
 
     span{
         text-align: start;
@@ -26,9 +26,16 @@
         margin-bottom: 1rem;
     }
 
-    button{
+    .cta-button{
+        display: flex;
+        gap: 2rem;
         margin-top: 4rem;
+    }
+
+    button{
         color: var(--secondary-color);
+        font-weight: bolder;
+        font-size: medium;
         background: transparent;
         // margin-bottom: 1rem;
         border: 1px solid var(--secondary-color);
@@ -36,18 +43,34 @@
 
     @media screen and (max-width: 700px) {
         width: 90%;
-        padding-top: 0rem;
+        padding-top: 8rem;
         margin: 0 auto ;
-        height: 85vh;
+        height: auto;
         // height: 85vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         // margin-bottom: 7rem;
         clip-path: polygon(0 0, 100% 0%,100% 100%, 0% 100%);
+        margin-bottom: 4rem;
+        text-align: center;
 
         h1{
             margin-top: 1.3rem;
+        }
+
+        .cta-button{
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+            gap: 1rem;
+
+            button{
+                // padding: 0;
+                margin: 0;
+            }
         }
     }
 

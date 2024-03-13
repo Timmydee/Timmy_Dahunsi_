@@ -7,7 +7,7 @@ const About = () => {
     <div className="about" id="about">
       <div className="about__container">
         <h2 className="sub-text">
-          <span>About</span>
+          <span>Why work with me</span>
         </h2>
 
         <div className="about__col">
@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div className="about__text-wrapper">
             <p className="about__text">
-              Hi! I'm Dahunsi Timilehin, a frontend developer dedicated to creating
+              Hi, I'm Dahunsi Timilehin, a frontend developer dedicated to creating
               stunning web and mobile apps. With 18 months' experience and product management
               expertise, I design user-focused digital solutions that drive growth. 
               Skilled in React, JavaScript, HTML, CSS, React Native, and Next.js,

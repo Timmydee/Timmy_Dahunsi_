@@ -18,7 +18,9 @@ const Navbar = () => {
     <div className='header'>
       <div className="nav__container">
         <div className="logo">
-          <img src={logo} alt='logo' />
+          <h6 className='logo-name'>Timilehin Dahunsi</h6>
+          <h6 className='logo-title'>Frontend Developer</h6>
+          {/* <img src={logo} alt='logo' /> */}
         </div>
 
         <div className={ click ? 'nav-menu active' : 'nav-menu'}>

@@ -1,15 +1,13 @@
 .header{
     width: 100%;
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 4rem 2rem 4rem;
     position: fixed;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     z-index: 2;
-
     span{
         color: blue;
     }
-
     @media screen and (max-width: 900px) {
         padding: 1rem;
     }
@@ -21,9 +19,19 @@
     align-items: center;
     height: 100%;
 
-    img{
-        object-fit: cover;
-        width: 80%;
+    // img{
+    //     object-fit: cover;
+    //     width: 80%;
+    // }
+    .logo{
+        color: var(--black-color);
+    }
+    .logo-name{       
+        font-size: 1rem;
+    }
+    .logo-title{
+        font-size: small;
+        font-weight: lighter;
     }
 
     .nav-menu{
