@@ -17,7 +17,7 @@
   
 }
 
-[data-theme="true"] {
+[data-theme="false"] {
   --font-base: "Roboto Slab", sans-serif;
   --primary-color: linear-gradient(121.53deg, #070b28 17.18%, #0a0d21 84.45%);
   --project-color: #0b1244;

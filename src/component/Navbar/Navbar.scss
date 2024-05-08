@@ -65,11 +65,12 @@
         display: none;
 
         .menuIcon{
-            // color: --var(--whiteInverse);
-            color: blue;
+            color: var(--white-color);
             font-size: 2rem;
-            // border: 1px solid red;
-            // padding: 1rem;
+        }
+        .menuIcon2{
+            color: var(--white-color);
+            font-size: 2rem;
         }
     }
 

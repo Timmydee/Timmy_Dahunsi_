@@ -58,13 +58,13 @@ const allWork = [
         about:
           'I actively collaborated with designers to build the frontend of Xypher, a decentralized investment platform, utilizing Next.js and Tailwind CSS to create a seamless and user-friendly interface.',
       },
-      {
-        imgUrl: portii,
-        title: "Krane Finance",
-        webUrl:"https://krane-fe.vercel.app/",
-        about:
-          "As a frontend developer in an agile team, I am actively contributing to the ongoing development of Krane Finance, an innovative platform aimed at simplifying car loan processes. My focus is on crafting an intuitive and visually engaging user interface to enhance the borrowing experience for individuals as the project evolves.",
-      }
+    //   {
+    //     imgUrl: portii,
+    //     title: "Krane Finance",
+    //     webUrl:"https://krane-fe.vercel.app/",
+    //     about:
+    //       "As a frontend developer in an agile team, I am actively contributing to the ongoing development of Krane Finance, an innovative platform aimed at simplifying car loan processes. My focus is on crafting an intuitive and visually engaging user interface to enhance the borrowing experience for individuals as the project evolves.",
+    //   }
 //     {
 //       imgUrl: portvii,
 //       title: "Tradify",
