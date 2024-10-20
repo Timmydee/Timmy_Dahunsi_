@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.scss";
 import { motion } from "framer-motion";
-import { BiChevronsDown } from "react-icons/bi";
 
 const Hero = () => {
   return (
