@@ -24,7 +24,7 @@ const Hero = () => {
             <button className="btn">Send a Mail</button>
           </a>
 
-          <a href="https://drive.google.com/file/d/1mWjL6K7_8up1KnhQgsXeh24aSwu47zQq/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1mWjL6K7_8up1KnhQgsXeh24aSwu47zQq/view?usp=sharing" target="_blank">
             <button className="btn">Download Resume</button>
           </a>
         </div>
