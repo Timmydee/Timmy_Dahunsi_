@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import "./Navbar.scss";
-import logo from "../../assets/TimLogo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { ImSun } from "react-icons/im";
 import { BsFillMoonFill } from "react-icons/bs";

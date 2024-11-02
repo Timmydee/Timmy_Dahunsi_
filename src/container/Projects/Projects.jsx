@@ -2,11 +2,6 @@ import React, { useState } from "react";
 import "./Project.scss";
 import { motion } from "framer-motion";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
-// import port1 from "../../assets/port1.png";
-import porti from '../../assets/porti.png'
-import portii from '../../assets/kr1.webp';
-import portvii from '../../assets/pics1.png';
-// import portiii from "../../assets/portiii.png";
 import portiv from '../../assets/xy2.webp';
 import portv from '../../assets/port5.png';
 import port3 from '../../assets/dnq.webp';
@@ -44,34 +39,13 @@ const allWork = [
       about:
         "I developed the frontend of a this web application that serves as a portfolio website for my client.",
     },
-    // {
-    //   imgUrl: port1,
-    //   title: "Best Crib",
-    //   webUrl:"https://bestcrib.vercel.app/",
-    //   about:
-    //     "Best Crib is a housing solution that helps home seekers find vacant apartments in my Local community.",
-    // },
     {
-        imgUrl: portiv,//
+        imgUrl: portiv,
         title: "Xypher",
         webUrl:"https://xyzpher.vercel.app/",
         about:
           'I actively collaborated with designers to build the frontend of Xypher, a decentralized investment platform, utilizing Next.js and Tailwind CSS to create a seamless and user-friendly interface.',
       },
-    //   {
-    //     imgUrl: portii,
-    //     title: "Krane Finance",
-    //     webUrl:"https://krane-fe.vercel.app/",
-    //     about:
-    //       "As a frontend developer in an agile team, I am actively contributing to the ongoing development of Krane Finance, an innovative platform aimed at simplifying car loan processes. My focus is on crafting an intuitive and visually engaging user interface to enhance the borrowing experience for individuals as the project evolves.",
-    //   }
-//     {
-//       imgUrl: portvii,
-//       title: "Tradify",
-//       webUrl:"https://tradify-nine.vercel.app/",
-//       about:
-//         "Tradify is a cryptocurrency information platform that provides users with the most current cryptocurrency market prices, ensuring timely access to relevant data.",
-//     },
 ];
 
 
