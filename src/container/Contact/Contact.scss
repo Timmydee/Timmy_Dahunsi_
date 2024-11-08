@@ -1,43 +1,83 @@
-.contact{
-    width: 100%;
-    height: 100%;
-    background-color: var(--primary-color);
-    border-radius: 50px 50px 0 0;
-}
+.contact {
+  width: 100%;
+  padding: 3rem 1rem;
+  background-color: var(--primary-color);
+  border-radius: 50px 50px 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.contact__container{
-    margin: 3rem 0 0;
+  .contact__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 2rem 1rem 1rem;
-    
+    gap: 1.5rem;
+    max-width: 600px;
 
-    .p{
-        text-align: center;
-        max-width: 500px;
-        margin: 2rem 0;
+    h3 {
+      color: var(--secondary-color);
+      margin-bottom: 1rem;
+      width: 100%;
     }
 
-    @media (max-width:768px) {
-        padding: 0 2rem 2rem;
-        margin: 0;
+    .p {
+      font-size: 1rem;
+      color: var(--black-color);
+      max-width: 500px;
+      margin: 0 auto 1.5rem;
     }
-}
 
-.contact__button{
-    .btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem 2rem;
-        margin-bottom: 1.5rem;
-        color: var(--white-color);
-        border: 1px solid var(--secondary-color);
+    .hero__button {
+      padding: 0.8rem 2rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 30px;
+      border: none;
+      background-color: var(--button);
+      color: var(--whiteInverse);
+      box-shadow: 0px 4px 15px rgba(0, 198, 255, 0.4);
+      transition: transform 0.3s ease, background 0.3s ease;
+      cursor: pointer;
 
-        h4{
-            margin-right: 0.7rem;
+      &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+      }
+    }
+
+    .contact__social-icons {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+
+      a {
+        color: var(--secondary-color);
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--button);
         }
+      }
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 2rem 0;
+    .contact__container {
+      h3 {
+        width: 90%;
+      }
+
+      .hero__button {
+        width: 90%;
+      }
+    }
+  }
 }

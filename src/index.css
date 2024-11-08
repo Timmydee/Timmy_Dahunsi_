@@ -6,6 +6,7 @@
   --font-base: "Roboto Slab", sans-serif;
   --primary-color: #eef2f6;
   --project-color: #d1e3f6;
+  --project-color2: #b2d2f5;
   --tetiary-color: linear-gradient(121.53deg, #070b28 17.18%, #0a0d21 84.45%);
   --secondary-color: #0c589a;
   --black-color: #161515;
@@ -17,10 +18,11 @@
   
 }
 
-[data-theme="false"] {
+[data-theme="true"] {
   --font-base: "Roboto Slab", sans-serif;
   --primary-color: linear-gradient(121.53deg, #070b28 17.18%, #0a0d21 84.45%);
   --project-color: #0b1244;
+  --project-color2: #0f143c;
   --secondary-color: #1385e9;
   --tetiary-color: #eef2f6;
   --black-color: #f7f2f2;

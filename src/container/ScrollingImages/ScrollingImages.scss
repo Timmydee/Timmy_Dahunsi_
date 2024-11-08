@@ -1,0 +1,29 @@
+.scrolling-images {
+  overflow: hidden;
+  padding: 2rem 0;
+  background-color: var(--primary-color);
+
+  .scrolling-images__wrapper {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+
+  .scrolling-image {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(115, 110, 243, 0.15);
+    transition: transform 0.3s ease;
+  }
+
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .scrolling-images {
+      padding: 0rem;
+    }
+    .scrolling-image {
+      width: 300px;
+    }
+  }
+}

@@ -1,34 +1,47 @@
 import React from "react";
 import "./Hero.scss";
 import { motion } from "framer-motion";
+import { fadeInUp, container } from "../../component/animation/animate";
 
 const Hero = () => {
   return (
     <div className="hero" id="home">
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 1.2 }}
+      <motion.section
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={container}
         className="hero__container"
       >
-        <span>Hi, My name is,</span>
-        <h1 className="h-text">
-          Dahunsi Timilehin <br />
-          Software Developer 👨🏽‍💻 | Technical Writer
-        </h1>
-        <p className="pSub-text">
-          I’m a software engineer specializing in building Products and
-          exceptional digital experiences on the web
-        </p>
-        <div className="cta-button">
-          <a href={`mailto:dahunsitimmy@gmail.com`}>
-            <button className="btn">Send a Mail</button>
+        <motion.h1 className="hero__headline h-text" variants={fadeInUp}>
+        Building Engaging Websites that Drive Growth and Results
+        </motion.h1>
+        <motion.p className="hero__subheadline pSub-text" variants={fadeInUp}>
+          {/* I am Dahunsi Timilehin, I help startups, companies, and entrepreneurs establish a powerful online presence with seamless, responsive, and scalable websites. */}
+          {/* I build websites that make a lasting impression and help your business
+          grow. From clean designs to smooth performance, I bring your vision to
+          life with a site that    drives results and supports your goals */}
+          As an experienced frontend engineer, I build websites designed to
+          captivate your audience and drive growth. From sleek interfaces to
+          optimized functionality, I bring your vision to life with a site that
+          drives results and supports your goals.
+        </motion.p>
+        <motion.div variants={fadeInUp} className="hero__cta-buttons">
+          <a href="#contact">
+            <button className="hero__button hero__button--primary">
+              Get Started Today
+            </button>
           </a>
-
-          <a href="https://drive.google.com/file/d/1mWjL6K7_8up1KnhQgsXeh24aSwu47zQq/view?usp=sharing" target="_blank">
-            <button className="btn">Download Resume</button>
+          <a href="#work">
+            <button className="hero__button hero__button--secondary">
+              Explore My Work
+            </button>
           </a>
-        </div>
-      </motion.div>
+        </motion.div>
+        <motion.p className="hero__supporting-text" variants={fadeInUp}>
+          {/* As an experienced frontend engineer, I build websites designed to captivate your audience and drive growth. From sleek interfaces to optimized functionality, I turn your vision into a site that works hard for you. */}
+        </motion.p>
+      </motion.section>
     </div>
   );
 };

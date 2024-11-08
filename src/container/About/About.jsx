@@ -1,53 +1,72 @@
 import React from "react";
 import "./About.scss";
+import { motion } from "framer-motion";
 import port from "../../assets/port.webp";
+import { FaLaptopCode, FaUsers, FaChartLine, FaHandshake } from "react-icons/fa";
 
 const About = () => {
+  const cards = [
+    {
+      icon: <FaLaptopCode />,
+      title: "Custom, Impactful Design",
+      text: "Engaging websites that align with your brand and business goals, creating a seamless experience for every visitor.",
+    },
+    {
+      icon: <FaChartLine />,
+      title: "Proven Expertise",
+      text: "Skilled in React, React Native, and Next.js, I build fast, responsive, and scalable solutions for growing businesses.",
+    },
+    {
+      icon: <FaUsers />,
+      title: "Reliable Communication",
+      text: "Clear and collaborative approach, keeping you informed every step of the way to bring your vision to life.",
+    },
+    {
+      icon: <FaHandshake />,
+      title: "Proven Track Record of Success",
+      text: "I’ve consistently achieved a 100% completion rate, seeing every project through to launch without delays. ",
+    },
+  ];
+
   return (
     <div className="about" id="about">
       <div className="about__container">
-        <h2 className="sub-text">
-          <span>Why work with me</span>
-        </h2>
+        <motion.h2
+          className="sub-text about__title"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <span>Why Work with Me</span>
+        </motion.h2>
 
-        <div className="about__col">
-          <div className="about__col2">
-            <div className="image__col">
-              <img src={port} alt="About" className="image" />
-              {/* <div className="image__border" /> */}
-            </div>
-          </div>
-          <div className="about__text-wrapper">
-            {/* <p className="about__text">
-              Hi, I'm Dahunsi Timilehin, a frontend developer dedicated to creating
-              stunning web and mobile apps. With 18 months' experience and product management
-              expertise, I design user-focused digital solutions that drive growth. 
-              Skilled in React, JavaScript, HTML, CSS, React Native, and Next.js,
-               I stay current with industry trends. My problem-solving and communication
-                abilities ensure timely delivery and client satisfaction. Let's connect and
-                 bring your project to life with a touch of innovation
-            </p> */}
-            <p className="about__text">
-              I create beautiful, user-centric web and mobile apps that drive
-              results. With over 3 years of experience and a passion for
-              innovation, I help businesses achieve their goals through
-              exceptional user experiences and cutting-edge technology.
-              <br></br>
-              For example, at Homify, I played a key role in developing a
-              user-friendly platform that increased landlord leads by 20% and
-              streamlined the tenant search process. 
-              <br></br>
-              My expertise in industry-leading technologies like React, React Native, and
-              Next.js ensures exceptional performance and a seamless user
-              experience. I also possess strong problem-solving skills and clear
-              communication, allowing me to navigate challenges and deliver
-              projects on time and within budget. 
-              <br></br>
-              Struggling to find a developer who understands both user experience and technical excellence?
-              You've come to the right place. Let's schedule a call
-              to discuss your project and see how I can turn your vision into
-              reality.
-            </p>
+        <div className="about__content">
+          {/* Image Section */}
+          <motion.div
+            className="about__image"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+          >
+            <img src={port} alt="Timilehin Dahunsi" className="about__img" />
+          </motion.div>
+
+          {/* Cards Section */}
+          <div className="about__cards">
+            {cards.map((card, index) => (
+              <motion.div
+                key={index}
+                className="about__card"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
+                whileHover={{ scale: 1.05 }}
+              >
+                <div className="about__icon">{card.icon}</div>
+                <h3 className="about__card-title">{card.title}</h3>
+                <p className="about__card-text">{card.text}</p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </div>

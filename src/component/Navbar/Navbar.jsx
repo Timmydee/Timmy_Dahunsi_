@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
 
         <div className="switch" onClick={toggle}>
-          {mode ? <BsFillMoonFill className="off" /> : <ImSun className="on" />}
+          {mode ? <BsFillMoonFill className="on" /> : <ImSun className="off" />}
         </div>
       </div>
     </div>

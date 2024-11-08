@@ -1,54 +1,51 @@
-import React from 'react'
-import './Skills.scss'
-import Slider from 'react-slick'
+import React from "react";
+import "./Skills.scss";
+import { motion } from "framer-motion";
+import { FaReact, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
+import { SiTypescript, SiJavascript, SiWebflow, SiWordpress, SiNextdotjs, SiReactos, SiGit } from "react-icons/si";
 
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+const skills = [
+  { name: "React", icon: <FaReact /> },
+  { name: "HTML", icon: <FaHtml5 /> },
+  { name: "CSS", icon: <FaCss3Alt /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "JavaScript", icon: <SiJavascript /> },
+  { name: "Webflow", icon: <SiWebflow /> },
+  { name: "WordPress", icon: <SiWordpress /> },
+  { name: "Next.js", icon: <SiNextdotjs /> },
+  { name: "React Native", icon: <SiReactos /> },
+  { name: "Git", icon: <FaGitAlt /> },
+];
 
-import git from '../../assets/git.png'
-import css from '../../assets/css.png'
-import html from '../../assets/html.png'
-import javascript from '../../assets/javascript.png'
-import react from '../../assets/react.png'
-import redux from '../../assets/redux.png'
-import sass from '../../assets/sass.png'
-
-const skill = [react, redux , javascript, git , sass, html, css]
-// ddd 
 const Skills = () => {
+  return (
+    <div className="skills" id="skills">
+      <motion.h2
+        className="skills__title"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        My Skills
+      </motion.h2>
 
-    const settings = {
-        // dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 3000,
-        autoplaySpeed: 0,
-        cssEase: "linear"
-    };
+      <div className="skills__grid">
+        {skills.map((skill, index) => (
+          <motion.div
+            key={index}
+            className="skill__card"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            whileHover={{ scale: 1.05 }}
+          >
+            <div className="skill__icon">{skill.icon}</div>
+            <p className="skill__name">{skill.name}</p>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-    
-    return (
-        <div className='skills'>
-            <div className="skill__container">
-                <h3 className='sub-text'>
-                    Skills
-                </h3>
-                
-                <div className='skills-content'>
-                    <Slider {...settings}>
-                        {skill.map((each,index) => (
-                            <div className='skill-img' key={index}>
-                                <img src={each} alt='/' />
-                            </div>
-                        ))}
-                    
-                    </Slider>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default Skills
+export default Skills;
