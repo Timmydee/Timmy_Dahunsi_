@@ -4,7 +4,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 7rem;
   justify-content: center;
   background: var(--primary-color); 
   color: var(--white-color); 
@@ -87,10 +87,7 @@
   }
 
   @media screen and (max-width: 480px) {
-    .hero {
-      margin-top: 2rem;
-      padding: 0rem;
-    }
+    
     .hero__container{
         padding: 0rem;
     }
