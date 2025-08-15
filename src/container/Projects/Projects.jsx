@@ -9,9 +9,18 @@ import port1 from "../../assets/bestcribs.webp";
 // import port2 from "../../assets/nftsImg.webp";
 import sabi from "../../assets/sabi1.webp";
 import cog1 from "../../assets/cityofgrace1.webp";
+import greeonEnergy from "../../assets/webdevelopmentsolarfrontend.webp";
+import farmoria from "../../assets/webdevelopmentfrontend.webp";
 
 // Array of project data
 const allWork = [
+  {
+    imgUrl: greeonEnergy,
+    title: "GreenOn Energy",
+    webUrl: "https://greenonenergy.vercel.app/",
+    about:
+      " GreenOn Energy is my ongoing passion project focused on connecting people and businesses to sustainable solar energy solutions. Built with Next.js, React, and MongoDB, the platform helps users discover verified solar vendors, explore financing options, and even get automated solar system recommendations tailored to their needs.",
+  },
   {
     imgUrl: sabi,
     title: "The Sabi Lifestyle",
@@ -32,6 +41,13 @@ const allWork = [
     webUrl: "https://www.cityofgracerccg.org/",
     about:
       "RCCG City of Grace is a church website created for the RCCG City of Grace community in the United Kingdom, providing information on services, events, and resources to support worship and community engagement..",
+  },
+  {
+    imgUrl: farmoria,
+    title: "Farmoria",
+    webUrl: "https://www.farmoria.ng/",
+    about:
+      "Farmoria – A smart platform connecting African farmers directly with local and international stores, streamlining produce sales with secure payments, real-time tracking, and reliable logistics.",
   },
   // {
   //   imgUrl: port2,

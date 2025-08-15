@@ -1,9 +1,9 @@
-import React, { useContext, useState } from "react";
-import "./Navbar.scss";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { ImSun } from "react-icons/im";
-import { BsFillMoonFill } from "react-icons/bs";
-import { themeContext } from "../../Context/DataContext";
+import React, { useContext, useState } from 'react';
+import './Navbar.scss';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { ImSun } from 'react-icons/im';
+import { BsFillMoonFill } from 'react-icons/bs';
+import { themeContext } from '../../Context/DataContext';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
           {/* <img src={logo} alt='logo' /> */}
         </div>
 
-        <div className={click ? "nav-menu active" : "nav-menu"}>
+        <div className={click ? 'nav-menu active' : 'nav-menu'}>
           <ul className="nav">
             <li>
               <a onClick={() => setClick(false)} href="#home">
@@ -47,6 +47,14 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
+
+            <div className="switch" onClick={toggle}>
+              {mode ? (
+                <BsFillMoonFill className="on" />
+              ) : (
+                <ImSun className="off" />
+              )}
+            </div>
           </ul>
 
           {/* <div className="btn-group">
@@ -65,9 +73,9 @@ const Navbar = () => {
           )}
         </div>
 
-        <div className="switch" onClick={toggle}>
+        {/* <div className="switch" onClick={toggle}>
           {mode ? <BsFillMoonFill className="on" /> : <ImSun className="off" />}
-        </div>
+        </div> */}
       </div>
     </div>
   );
