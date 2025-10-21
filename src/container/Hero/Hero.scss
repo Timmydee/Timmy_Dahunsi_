@@ -9,8 +9,9 @@
   background: var(--primary-color); 
   color: var(--white-color); 
   padding: 2rem;
-  overflow: hidden;
+  overflow: auto;
   font-family: var(--font-base);
+
 
   .hero__container {
     text-align: center;
@@ -77,6 +78,26 @@
       margin: 2rem auto 0;
       animation: fadeInUp 2.5s ease-out;
     }
+  }
+
+  .social-icons {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+
+      a {
+        color: var(--secondary-color);
+        transition: color 0.3s ease;
+        padding: 12px 10px 8px 10px;
+        border-radius: 8px;
+        background-color: var(--project-color);
+
+        &:hover {
+          color: var(--button);
+        }
+      }
   }
 
   @media screen and (max-width: 768px) {

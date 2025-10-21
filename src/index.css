@@ -1,9 +1,11 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 :root {
-  --font-base: "Roboto Slab", sans-serif;
+  /* --font-base: "Roboto Slab", sans-serif; */
+  --font-base: "Poppins", sans-serif;
   --primary-color: #eef2f6;
   --project-color: #d1e3f6;
   --project-color2: #b2d2f5;
@@ -19,7 +21,7 @@
 }
 
 [data-theme="true"] {
-  --font-base: "Roboto Slab", sans-serif;
+  --font-base: "Poppins", sans-serif;
   --primary-color: linear-gradient(121.53deg, #070b28 17.18%, #0a0d21 84.45%);
   --project-color: #0b1244;
   --project-color2: #0f143c;

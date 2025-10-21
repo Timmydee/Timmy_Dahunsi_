@@ -1,7 +1,16 @@
-import React from "react";
-import "./Hero.scss";
-import { motion } from "framer-motion";
-import { fadeInUp, container } from "../../component/animation/animate";
+import React from 'react';
+import './Hero.scss';
+import { motion } from 'framer-motion';
+import { fadeInUp, container } from '../../component/animation/animate';
+import {
+  AiOutlineMail,
+  AiOutlineTwitter,
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineWhatsApp,
+  AiOutlineFacebook,
+  AiOutlineGithub,
+} from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -14,18 +23,40 @@ const Hero = () => {
         className="hero__container"
       >
         <motion.h1 className="hero__headline h-text" variants={fadeInUp}>
-        Building Engaging Websites that Drive Growth and Results
+          Building Web Experiences that Drive Growth
         </motion.h1>
         <motion.p className="hero__subheadline pSub-text" variants={fadeInUp}>
-          {/* I am Dahunsi Timilehin, I help startups, companies, and entrepreneurs establish a powerful online presence with seamless, responsive, and scalable websites. */}
-          {/* I build websites that make a lasting impression and help your business
-          grow. From clean designs to smooth performance, I bring your vision to
-          life with a site that    drives results and supports your goals */}
-          As an experienced frontend engineer, I build websites designed to
-          captivate your audience and drive growth. From sleek interfaces to
-          optimized functionality, I bring your vision to life with a site that
-          drives results and supports your goals.
+          I’m a Frontend Engineer who loves turning ideas into clean, responsive, and high-performing web experiences that help products grow and connect with their users.
         </motion.p>
+        <motion.div className="social-icons">
+          <motion.a
+            href="https://www.linkedin.com/in/timilehin-dahunsi-598010176/"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <AiOutlineLinkedin size={28} />
+          </motion.a>
+          <motion.a
+            href="https://github.com/Timmydee/" // Replace with actual WhatsApp number
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <AiOutlineGithub size={28} />
+          </motion.a>
+          <motion.a
+            href="https://twitter.com/Timmy_Dahunsi"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <AiOutlineTwitter size={28} />
+          </motion.a>
+        </motion.div>
         <motion.div variants={fadeInUp} className="hero__cta-buttons">
           <a href="#contact">
             <button className="hero__button hero__button--primary">
