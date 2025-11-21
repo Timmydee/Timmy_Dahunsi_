@@ -8,6 +8,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineWhatsApp,
   AiOutlineFacebook,
+  AiOutlinePhone,
 } from "react-icons/ai";
 
 const Contact = () => {
@@ -28,10 +29,19 @@ const Contact = () => {
         </p>
 
         <a
+          href='https://cal.com/timilehin.tech/15min?overlayCalendar=true'
+          className="hero__button hero__button--primary"
+          target="_blank"
+        >
+          Book a call with me
+          <AiOutlinePhone size={24} />
+        </a>
+
+        <a
           href={`mailto:dahunsitimmy@gmail.com`}
           className="hero__button hero__button--primary"
         >
-          Let's get in touch
+          Send a message 
           <AiOutlineMail size={24} />
         </a>
 
