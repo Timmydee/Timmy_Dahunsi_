@@ -8,6 +8,7 @@ import { BsArrowRight } from "react-icons/bs";
 import port1 from "../../assets/bestcribs.webp";
 // import port2 from "../../assets/nftsImg.webp";
 import sabi from "../../assets/sabi1.webp";
+import bizai from "../../assets/bizai.png";
 import cog1 from "../../assets/cityofgrace1.webp";
 import greeonEnergy from "../../assets/webdevelopmentsolarfrontend.webp";
 import farmoria from "../../assets/webdevelopmentfrontend.webp";
@@ -28,13 +29,13 @@ const allWork = [
     about:
       "Sabilife is a web application designed to promote sustainable living by providing educational resources, daily eco-tips, and community-driven content for fostering energy-efficient and environmentally conscious habits.",
   },
-  // {
-  //   imgUrl: bizai,
-  //   title: "Biz Ai",
-  //   webUrl: "https://bizai-gamma.vercel.app/",
-  //   about:
-  //     "BizAi is an AI-powered chatbot that helps Nigerian entrepreneurs with business registration, tax, and trade compliance. The web chat is the primary feature, with an optional WhatsApp extension.",
-  // },
+  {
+    imgUrl: bizai,
+    title: "Biz Ai",
+    webUrl: "https://bizai-gamma.vercel.app/",
+    about:
+      "BizAi is an AI-powered chatbot that helps Nigerian entrepreneurs with business registration, tax, and trade compliance. The web chat is the primary feature, with an optional WhatsApp extension.",
+  },
   {
     imgUrl: port1,
     title: "Best Crib",
