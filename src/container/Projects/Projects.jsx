@@ -14,13 +14,13 @@ import farmoria from "../../assets/webdevelopmentfrontend.webp";
 
 // Array of project data
 const allWork = [
-  {
-    imgUrl: greeonEnergy,
-    title: "GreenOn Energy",
-    webUrl: "https://greenonenergy.vercel.app/",
-    about:
-      " GreenOn Energy is my ongoing passion project focused on connecting people and businesses to sustainable solar energy solutions. Built with Next.js, React, and MongoDB, the platform helps users discover verified solar vendors, explore financing options, and even get automated solar system recommendations tailored to their needs.",
-  },
+  // {
+  //   imgUrl: greeonEnergy,
+  //   title: "GreenOn Energy",
+  //   webUrl: "https://greenonenergy.vercel.app/",
+  //   about:
+  //     " GreenOn Energy is my ongoing passion project focused on connecting people and businesses to sustainable solar energy solutions. Built with Next.js, React, and MongoDB, the platform helps users discover verified solar vendors, explore financing options, and even get automated solar system recommendations tailored to their needs.",
+  // },
   {
     imgUrl: sabi,
     title: "The Sabi Lifestyle",
@@ -28,6 +28,13 @@ const allWork = [
     about:
       "Sabilife is a web application designed to promote sustainable living by providing educational resources, daily eco-tips, and community-driven content for fostering energy-efficient and environmentally conscious habits.",
   },
+  // {
+  //   imgUrl: bizai,
+  //   title: "Biz Ai",
+  //   webUrl: "https://bizai-gamma.vercel.app/",
+  //   about:
+  //     "BizAi is an AI-powered chatbot that helps Nigerian entrepreneurs with business registration, tax, and trade compliance. The web chat is the primary feature, with an optional WhatsApp extension.",
+  // },
   {
     imgUrl: port1,
     title: "Best Crib",
